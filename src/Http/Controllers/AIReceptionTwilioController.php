@@ -2,8 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Controllers;
+namespace Liberu\CRM\AIReceptionAndConversation\Http\Controllers;
 
+
+use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Liberu\CRM\AIReceptionAndConversation\Actions\RecordReceptionTurn;
